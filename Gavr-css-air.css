@@ -1,0 +1,33 @@
+*		{margin:0;	padding:0;}
+header	{background-image: url(ан.jpg) ;background-size:cover; height:175px; padding: 40px ;
+	color: rgb(47, 47, 51); font-family: monospace ; font-size: 21px; font-style: normal; }
+header:hover{background:lightblue; opacity: 0.95;}
+nav		{background:rgb(78, 181, 250);}
+main		{clear:both;}
+article	{background: rgb(89, 100, 109); margin-left:250px;	min-height:400px;
+	color: rgb(47, 47, 51); font-family: monospace ; font-size: 14px; text-align: justify; line-height: 1.5;}
+body {background-image: url(облака.jpg)  ;background-size: cover;}
+aside	{background:rgb(78, 181, 250); opacity: 0.95; width:250px;min-height:400px;float: left;
+	color: rgb(47, 47, 51); font-family: monospace ; font-size: 14px;text-align: center; }
+footer	{background: rgb(47, 47, 51);height:100px; margin-top: 5px; margin-bottom: 5px;
+	color: rgb(78, 181, 250); font-family: monospace ; font-size: 15px; font-style: normal;}
+
+
+ul 			{display: block;   margin: 5px;  padding: 5px;   list-style: none; font-size: 15;  }
+ul.menu > li 	{ display:inline-block;  font-size: 21.2px; font-family: monospace ;  font-style: normal; }
+ul.menu > li > a 	{display: block;   padding: 15px;   color: rgb(78, 181, 250);  
+					background-color: rgb(47, 47, 51);  text-decoration: line-through; }
+ul.menu > li > a:hover {background-color:lightblue;}
+
+/*Задания:
+1. Поменять цвет меню.
+2. Поменять подчеркивание ссылки - сделать "зачеркивание"
+3. Заменить цвет, фона верхнего меню при наведении на синий.
+4. Сделать изменение фона при наведение на пункты меню (выпадающих элементов).
+
+*/
+
+.wrapper{
+	width:900px;
+	margin: 0 auto;
+}
